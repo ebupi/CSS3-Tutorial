@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Pseudo Class</title>
+    <style>
+        a{
+            font-size: 24px;
+            color: yellowgreen;
+        }
+        a:visited{
+            color: violet;
+        }
+        a:hover{
+            color: tomato;
+        }
+        a:active{
+            color: teal;
+        }
+        input{
+            font-size: 1.5em;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid tomato;
+        }
+        input:focus{
+            outline: 0;
+            border: 2px solid chocolate;
+        }
+        #facebook{
+            color: white;
+            font-size: 1.5em;
+            display: inline-block;
+            background: blue;
+            padding: 10px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+        #facebook:hover{
+            background: white;
+            color:blue;
+            border: 1px solid blue;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="#">This is a link.</a>
+    <input type="text" name="Name" id="Name" placeholder="Name">
+    <a id="facebook" href="#">Facebook</a>
+</body>
+</html>
