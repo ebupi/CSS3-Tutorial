@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS -Pseudo Element</title>
+    <style>
+    .para1{
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        line-height: 1.5em;
+        font-style: italic;
+    }
+    .para1::first-line{
+        color: green;
+    }
+    .para1::first-letter{
+        color: orange;
+        font-size: 50px;
+    }
+    .para1::after{
+        content: url("images/pngwing.com.png");
+        color: orangered;       
+    }
+    .para1::before{
+        content: "PARAGRAF Öncesi";
+        color: blueviolet;
+           
+    }
+    </style>
+</head>
+<body>
+    <p class="para1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consectetur voluptatibus ipsam esse alias. Ex laudantium aliquam quam architecto sint praesentium perferendis odit, magni possimus repellat illo nostrum soluta veniam eum placeat. Officiis modi voluptatibus molestias sed adipisci excepturi, veniam cupiditate voluptas mollitia aut dolor dolores velit vitae iusto cumque aperiam, inventore hic error a odit! Hic doloremque fugit ex nobis doloribus magni, aliquam culpa eligendi similique nostrum eveniet. Sapiente a adipisci eveniet omnis voluptates sint voluptatibus, voluptatum libero possimus repudiandae tempore alias dicta quaerat quod quia delectus nam impedit recusandae officia esse! Eligendi tenetur ex aspernatur reprehenderit officiis veniam.
+    </p>
+</body>
+</html>
