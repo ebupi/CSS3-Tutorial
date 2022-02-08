@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nth-Child Selector</title>
+    <style>
+        ul{
+            font-size: 1.5em;
+            list-style-type: none;
+        }
+        ul li:nth-child(2n){
+            color: orangered;
+        }
+        ul li:nth-child(2n+1){
+            color: palegreen;
+        }
+        ul li:nth-child(n+5){
+            background: powderblue;
+        }
+
+
+
+
+
+
+
+
+
+
+        p{
+            font-size: 1.5em;
+        }
+        p:nth-child(1){
+            color: coral;
+        }
+        p:nth-child(3){
+            background: cornflowerblue;
+        }
+        p:nth-child(even){
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur dignissimos dolor aperiam sint dicta quidem laboriosam suscipit explicabo beatae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur dignissimos dolor aperiam sint dicta quidem laboriosam suscipit explicabo beatae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur dignissimos dolor aperiam sint dicta quidem laboriosam suscipit explicabo beatae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur dignissimos dolor aperiam sint dicta quidem laboriosam suscipit explicabo beatae?</p>
+</body>
+</html>
